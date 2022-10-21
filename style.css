@@ -54,6 +54,8 @@ h1{
 }
 .submit-btn:hover{
     cursor: pointer;
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
 }
 
 .hidden {
