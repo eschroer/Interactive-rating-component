@@ -1,0 +1,90 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    width: 325px;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 50px auto;
+}
+.star-img {
+    background-color: hsl(216, 12%, 54%, 0.246);
+    border-radius: 50%;
+    padding: 15px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size:1.2rem;
+}
+.rating-text {
+    font-size: 16px;
+    color: hsl(216, 12%, 54%);
+}
+.btns-container{
+    display: flex;
+    justify-content: space-between;
+}
+.rating-btn{
+    background-color: hsla(216, 12%, 54%, 0.246);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+}
+.rating-btn:hover{
+    background-color: hsl(217, 12%, 63%);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.selected {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 135px;
+    margin: 20px auto;
+}
+.submit-btn:hover{
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+.thank-you-img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+.selection-text{
+    background-color: hsla(216, 12%, 54%, 0.246);
+    border-radius: 16px;
+    color: hsl(25, 97%, 53%);
+    text-align: center;
+    width: 55%;
+    padding: 5px;
+    margin: auto;
+}
+h2 {
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+}
+.thank-you-text{
+    color:hsl(217, 12%, 63%);
+    text-align: center;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
